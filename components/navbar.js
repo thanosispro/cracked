@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import Link from 'next/link';
 
-const navMenu = ['Home', 'Subjects', 'Quiz', 'Upload', 'Contact', 'Simulation', 'Admin'];
+const navMenu = ['Home', 'Subjects', 'Quiz', 'Simulation', 'Upload', 'Contact', 'About', 'Admin'];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
