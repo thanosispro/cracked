@@ -1,1 +1,11 @@
+# Next.js build output
+.next/
+out/
+
+# Production build artifacts
+build/
+
+# Turbopack cache
+.turbo/
 node_modules
+
