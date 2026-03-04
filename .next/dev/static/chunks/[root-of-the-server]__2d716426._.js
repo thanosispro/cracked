@@ -490,11 +490,11 @@ var _s = __turbopack_context__.k.signature();
 function Home() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "cc7260d95392b0773112545e735e311e162f8542c1063e2ef5d5227111e914b3") {
+    if ($[0] !== "428106e2871546a12ba2d842f0a58429d83a148d2ffd0201fecbdfcb65adf2ed") {
         for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "cc7260d95392b0773112545e735e311e162f8542c1063e2ef5d5227111e914b3";
+        $[0] = "428106e2871546a12ba2d842f0a58429d83a148d2ffd0201fecbdfcb65adf2ed";
     }
     const [openFaq, setOpenFaq] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
     let faqs;
@@ -511,6 +511,7 @@ function Home() {
                 color: "text-cyan-400",
                 bg: "bg-cyan-500/10",
                 border: "border-cyan-500/20",
+                glow: "from-cyan-900/40",
                 description: "Master the science of molecules and reactions with immersive labs."
             },
             {
@@ -521,6 +522,7 @@ function Home() {
                 color: "text-violet-400",
                 bg: "bg-violet-500/10",
                 border: "border-violet-500/20",
+                glow: "from-violet-900/40",
                 description: "Understand the laws of motion and energy through real-world examples."
             },
             {
@@ -531,6 +533,7 @@ function Home() {
                 color: "text-emerald-400",
                 bg: "bg-emerald-500/10",
                 border: "border-emerald-500/20",
+                glow: "from-emerald-900/40",
                 description: "Explore the science of life with detailed anatomical visualizations."
             },
             {
@@ -541,6 +544,7 @@ function Home() {
                 color: "text-amber-400",
                 bg: "bg-amber-500/10",
                 border: "border-amber-500/20",
+                glow: "from-amber-900/40",
                 description: "Solve complex problems with precision and interactive graphs."
             }
         ];
@@ -585,18 +589,18 @@ function Home() {
             className: "relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 border-b border-white/5 overflow-hidden",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute top-0 right-0 w-[800px] h-[800px] bg-indigo-600/20 blur-[120px] rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none"
+                    className: "absolute top-0 right-0 w-[800px] h-[800px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900/40 via-transparent to-transparent rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 83,
+                    lineNumber: 87,
                     columnNumber: 113
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-violet-600/10 blur-[100px] rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"
+                    className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-violet-900/30 via-transparent to-transparent rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 83,
-                    columnNumber: 271
+                    lineNumber: 87,
+                    columnNumber: 357
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto relative z-10",
@@ -613,35 +617,35 @@ function Home() {
                                                 className: "animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 83,
-                                                columnNumber: 677
+                                                lineNumber: 87,
+                                                columnNumber: 849
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "relative inline-flex rounded-full h-2 w-2 bg-emerald-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 83,
-                                                columnNumber: 784
+                                                lineNumber: 87,
+                                                columnNumber: 956
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 83,
-                                        columnNumber: 637
+                                        lineNumber: 87,
+                                        columnNumber: 809
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-slate-300 text-xs font-medium tracking-wide uppercase",
                                         children: "New Session Started"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 83,
-                                        columnNumber: 868
+                                        lineNumber: 87,
+                                        columnNumber: 1040
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 83,
-                                columnNumber: 527
+                                lineNumber: 87,
+                                columnNumber: 699
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "text-5xl md:text-7xl font-bold text-white tracking-tight mb-8 leading-tight",
@@ -649,30 +653,30 @@ function Home() {
                                     "Master Your Exams with ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 83,
-                                        columnNumber: 1092
+                                        lineNumber: 87,
+                                        columnNumber: 1264
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-gradient-to-r from-indigo-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent",
                                         children: "Professional Precision"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 83,
-                                        columnNumber: 1098
+                                        lineNumber: 87,
+                                        columnNumber: 1270
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 83,
-                                columnNumber: 977
+                                lineNumber: 87,
+                                columnNumber: 1149
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto mb-10",
                                 children: "A complete ecosystem for science students. High-yield notes, adaptive quizzes, and performance analytics designed to maximize your score."
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 83,
-                                columnNumber: 1240
+                                lineNumber: 87,
+                                columnNumber: 1412
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 max-w-4xl mx-auto",
@@ -712,32 +716,32 @@ function Home() {
                                 ].map(_HomeAnonymous)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 83,
-                                columnNumber: 1459
+                                lineNumber: 87,
+                                columnNumber: 1631
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-white/5 pt-12",
                                 children: stats.map(_HomeStatsMap)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 111,
+                                lineNumber: 115,
                                 columnNumber: 42
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 83,
-                        columnNumber: 480
+                        lineNumber: 87,
+                        columnNumber: 652
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 83,
-                    columnNumber: 431
+                    lineNumber: 87,
+                    columnNumber: 603
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 83,
+            lineNumber: 87,
             columnNumber: 10
         }, this);
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -755,7 +759,7 @@ function Home() {
                                         children: "Core Subjects"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 112,
+                                        lineNumber: 116,
                                         columnNumber: 179
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -763,13 +767,13 @@ function Home() {
                                         children: "Deep dive into the fundamental sciences with our structured curriculum."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 112,
+                                        lineNumber: 116,
                                         columnNumber: 260
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 112,
+                                lineNumber: 116,
                                 columnNumber: 174
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -781,19 +785,19 @@ function Home() {
                                         size: 18
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 112,
+                                        lineNumber: 116,
                                         columnNumber: 513
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 112,
+                                lineNumber: 116,
                                 columnNumber: 388
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 112,
+                        lineNumber: 116,
                         columnNumber: 93
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -801,18 +805,18 @@ function Home() {
                         children: subjects.map(_HomeSubjectsMap)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 112,
+                        lineNumber: 116,
                         columnNumber: 550
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 112,
+                lineNumber: 116,
                 columnNumber: 58
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 112,
+            lineNumber: 116,
             columnNumber: 10
         }, this);
         $[1] = faqs;
@@ -832,7 +836,7 @@ function Home() {
             children: "Frequently Asked Questions"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 125,
+            lineNumber: 129,
             columnNumber: 10
         }, this);
         $[5] = t3;
@@ -864,20 +868,20 @@ function Home() {
                                                     children: faq.q
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 135,
+                                                    lineNumber: 139,
                                                     columnNumber: 124
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                     className: `text-slate-500 transition-transform ${openFaq === idx_1 ? "rotate-180" : ""}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 135,
+                                                    lineNumber: 139,
                                                     columnNumber: 191
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 133,
+                                            lineNumber: 137,
                                             columnNumber: 180
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -885,30 +889,30 @@ function Home() {
                                             children: faq.a
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 135,
+                                            lineNumber: 139,
                                             columnNumber: 306
                                         }, this)
                                     ]
                                 }, idx_1, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 133,
+                                    lineNumber: 137,
                                     columnNumber: 49
                                 }, this)
                         }["Home[faqs.map()]"])
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 132,
+                        lineNumber: 136,
                         columnNumber: 137
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 132,
+                lineNumber: 136,
                 columnNumber: 98
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 132,
+            lineNumber: 136,
             columnNumber: 10
         }, this);
         $[6] = openFaq;
@@ -919,10 +923,10 @@ function Home() {
     let t5;
     if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "absolute top-0 right-0 w-96 h-96 bg-indigo-500/20 blur-[100px] rounded-full translate-x-1/2 -translate-y-1/2"
+            className: "absolute top-0 right-0 w-96 h-96 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-500/30 via-transparent to-transparent rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 144,
+            lineNumber: 148,
             columnNumber: 10
         }, this);
         $[8] = t5;
@@ -937,7 +941,7 @@ function Home() {
             children: "Ready to dominate your finals?"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 152,
+            lineNumber: 156,
             columnNumber: 10
         }, this);
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -945,7 +949,7 @@ function Home() {
             children: "Join the platform that is redefining high school education in Nepal."
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 153,
+            lineNumber: 157,
             columnNumber: 10
         }, this);
         $[9] = t6;
@@ -976,34 +980,34 @@ function Home() {
                                         children: "Join 12Crack Today"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 162,
+                                        lineNumber: 166,
                                         columnNumber: 314
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 162,
+                                    lineNumber: 166,
                                     columnNumber: 291
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 162,
+                            lineNumber: 166,
                             columnNumber: 252
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 162,
+                    lineNumber: 166,
                     columnNumber: 93
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 162,
+                lineNumber: 166,
                 columnNumber: 58
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 162,
+            lineNumber: 166,
             columnNumber: 10
         }, this);
         $[11] = t8;
@@ -1022,7 +1026,7 @@ function Home() {
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 169,
+            lineNumber: 173,
             columnNumber: 10
         }, this);
         $[12] = t4;
@@ -1043,10 +1047,10 @@ function _HomeSubjectsMap(subject) {
             className: "h-full p-8 bg-[#0a0f1e] rounded-2xl border border-white/5 hover:border-indigo-500/30 hover:bg-[#111827] transition-all duration-300 relative overflow-hidden",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `absolute top-0 right-0 p-32 rounded-full blur-3xl opacity-0 group-hover:opacity-10 transition-opacity ${subject.bg.replace("/10", "/30")}`
+                    className: `absolute top-0 right-0 w-64 h-64 rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] ${subject.glow} via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none -translate-y-1/2 translate-x-1/2`
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 179,
+                    lineNumber: 183,
                     columnNumber: 288
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1055,29 +1059,29 @@ function _HomeSubjectsMap(subject) {
                         size: 28
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 179,
-                        columnNumber: 634
+                        lineNumber: 183,
+                        columnNumber: 774
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 179,
-                    columnNumber: 447
+                    lineNumber: 183,
+                    columnNumber: 587
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                     className: "text-xl font-bold text-white mb-3",
                     children: subject.title
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 179,
-                    columnNumber: 667
+                    lineNumber: 183,
+                    columnNumber: 807
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-slate-400 text-sm leading-relaxed mb-6 group-hover:text-slate-300 transition-colors",
                     children: subject.description
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 179,
-                    columnNumber: 737
+                    lineNumber: 183,
+                    columnNumber: 877
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex items-center gap-2 text-xs font-bold text-slate-500 group-hover:text-white transition-colors uppercase tracking-wider",
@@ -1087,24 +1091,24 @@ function _HomeSubjectsMap(subject) {
                             size: 14
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 179,
-                            columnNumber: 1021
+                            lineNumber: 183,
+                            columnNumber: 1161
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 179,
-                    columnNumber: 866
+                    lineNumber: 183,
+                    columnNumber: 1006
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 179,
+            lineNumber: 183,
             columnNumber: 114
         }, this)
     }, subject.id, false, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 179,
+        lineNumber: 183,
         columnNumber: 10
     }, this);
 }
@@ -1117,7 +1121,7 @@ function _HomeStatsMap(stat, idx_0) {
                 children: stat.number
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 182,
+                lineNumber: 186,
                 columnNumber: 51
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1125,13 +1129,13 @@ function _HomeStatsMap(stat, idx_0) {
                 children: stat.label
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 182,
+                lineNumber: 186,
                 columnNumber: 122
             }, this)
         ]
     }, idx_0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 182,
+        lineNumber: 186,
         columnNumber: 10
     }, this);
 }
@@ -1148,12 +1152,12 @@ function _HomeAnonymous(item, idx) {
                         size: 28
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 185,
+                        lineNumber: 189,
                         columnNumber: 313
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 185,
+                    lineNumber: 189,
                     columnNumber: 254
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1161,25 +1165,25 @@ function _HomeAnonymous(item, idx) {
                     children: item.title
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 185,
+                    lineNumber: 189,
                     columnNumber: 342
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-b from-white/5 to-transparent pointer-events-none"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 185,
+                    lineNumber: 189,
                     columnNumber: 414
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 185,
+            lineNumber: 189,
             columnNumber: 70
         }, this)
     }, idx, false, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 185,
+        lineNumber: 189,
         columnNumber: 10
     }, this);
 }

@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
   }, [router]);
   return (
     <div className="bg-[#020617] min-h-screen text-slate-300 selection:bg-indigo-500/30 selection:text-indigo-200 font-sans antialiased">
-      <LoadingBar color='#144757ff' progress={progress} onLoaderFinished={() => setProgress(0)} />
+      <LoadingBar color='#818cf8' progress={progress} onLoaderFinished={() => setProgress(0)} />
       <Navbar />
       <Component {...pageProps} />
       <Footer />

@@ -44,9 +44,10 @@ const navMenu = [
     'Home',
     'Subjects',
     'Quiz',
+    'Simulation',
     'Upload',
     'Contact',
-    'Simulation',
+    'About',
     'Admin'
 ];
 const Navbar = ()=>{
@@ -1110,7 +1111,7 @@ function App({ Component, pageProps }) {
         className: "bg-[#020617] min-h-screen text-slate-300 selection:bg-indigo-500/30 selection:text-indigo-200 font-sans antialiased",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$top$2d$loading$2d$bar__$5b$external$5d$__$28$react$2d$top$2d$loading$2d$bar$2c$__esm_import$2c$__$5b$project$5d2f$node_modules$2f$react$2d$top$2d$loading$2d$bar$29$__["default"], {
-                color: "#144757ff",
+                color: "#818cf8",
                 progress: progress,
                 onLoaderFinished: ()=>setProgress(0)
             }, void 0, false, {

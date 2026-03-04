@@ -2,6 +2,16 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Search, FileText, Calendar, User, Download, X, Loader, AlertCircle, Maximize2, Minimize2 } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
+import dynamic from 'next/dynamic';
+
+const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
+  ssr: false,
+  loading: () => (
+    <div className="flex items-center justify-center h-full bg-[#0a0f1e]">
+      <Loader size={48} className="text-indigo-500 animate-spin" />
+    </div>
+  ),
+});
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
 // change title of document to "Subjects | Crackfor"
@@ -95,69 +105,17 @@ export default function SubjectsPage() {
     <div className="min-h-screen bg-[#020617] pt-32 pb-20 px-4">
       {/* PDF Viewer Modal */}
       {selectedPdf && (
-        <div className={`fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col animate-in fade-in duration-200 ${isFullScreen ? 'p-0' : 'p-4'}`}>
-          {!isFullScreen && (
-            <div className="flex justify-between items-center p-4 bg-[#0a0f1e] border-b border-white/10 shadow-lg rounded-t-xl mx-auto w-full max-w-6xl">
-              <div>
-                <h3 className="text-lg font-bold text-slate-200">{selectedPdf.name}</h3>
-                <p className="text-slate-500 text-sm truncate max-w-md">{selectedPdf.description}</p>
-              </div>
-              <div className="flex gap-2">
-                <button
-                  onClick={() => setIsFullScreen(true)}
-                  className="p-2 hover:bg-white/5 rounded-lg transition-colors group"
-                  title="Full Screen"
-                >
-                  <Maximize2 size={20} className="text-indigo-400 group-hover:scale-110 transition-transform" />
-                </button>
-                <button
-                  onClick={() => handleDownloadPdf(selectedPdf.pdfLink, selectedPdf.name)}
-                  className="p-2 hover:bg-white/5 rounded-lg transition-colors group"
-                  title="Download PDF"
-                >
-                  <Download size={20} className="text-indigo-400 group-hover:scale-110 transition-transform" />
-                </button>
-                <button
-                  onClick={() => {
-                    setSelectedPdf(null);
-                    setIsFullScreen(false);
-                  }}
-                  className="p-2 hover:bg-white/5 rounded-lg transition-colors group"
-                >
-                  <X size={20} className="text-rose-400 group-hover:scale-110 transition-transform" />
-                </button>
-              </div>
-            </div>
-          )}
-
-          {isFullScreen && (
-            <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-50 flex gap-2">
-              <button
-                onClick={() => setIsFullScreen(false)}
-                className="p-2 bg-black/50 hover:bg-black/80 rounded-lg transition-colors group backdrop-blur-sm border border-white/10"
-                title="Exit Full Screen"
-              >
-                <Minimize2 size={20} className="text-white group-hover:scale-110 transition-transform" />
-              </button>
-              <button
-                onClick={() => {
-                  setSelectedPdf(null);
-                  setIsFullScreen(false);
-                }}
-                className="p-2 bg-black/50 hover:bg-black/80 rounded-lg transition-colors group backdrop-blur-sm border border-white/10"
-              >
-                <X size={20} className="text-rose-400 group-hover:scale-110 transition-transform" />
-              </button>
-            </div>
-          )}
-
-          <div className={`flex-1 overflow-hidden bg-slate-900 ${isFullScreen ? 'w-full h-full' : 'mx-auto w-full max-w-6xl rounded-b-xl shadow-2xl border-x border-b border-white/10'}`}>
-            <iframe
-              src={`${API_BASE_URL}${selectedPdf.pdfLink}#toolbar=1&navpanes=0&scrollbar=1`}
-              className="w-full h-full bg-white/10"
-              title={selectedPdf.name}
-            />
-          </div>
+        <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col">
+          <PdfViewer
+            fileUrl={`${API_BASE_URL}${selectedPdf.pdfLink}`}
+            fileName={selectedPdf.name}
+            onDownload={() => handleDownloadPdf(selectedPdf.pdfLink, selectedPdf.name)}
+            onClose={() => {
+              setSelectedPdf(null);
+              setIsFullScreen(false);
+            }}
+            isFullScreen={isFullScreen}
+          />
         </div>
       )}
 
@@ -245,13 +203,13 @@ export default function SubjectsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredSubjects.map((subject, index) => {
               const categoryTheme = {
-                mathematics: { text: 'text-blue-400', border: 'border-blue-500/20', bg: 'bg-blue-500/10' },
-                physics: { text: 'text-indigo-400', border: 'border-indigo-500/20', bg: 'bg-indigo-500/10' },
-                chemistry: { text: 'text-emerald-400', border: 'border-emerald-500/20', bg: 'bg-emerald-500/10' },
-                biology: { text: 'text-rose-400', border: 'border-rose-500/20', bg: 'bg-rose-500/10' },
-                english: { text: 'text-amber-400', border: 'border-amber-500/20', bg: 'bg-amber-500/10' },
-                computer: { text: 'text-violet-400', border: 'border-violet-500/20', bg: 'bg-violet-500/10' },
-                default: { text: 'text-slate-400', border: 'border-slate-500/20', bg: 'bg-slate-500/10' }
+                mathematics: { text: 'text-blue-400', border: 'border-blue-500/20', bg: 'bg-blue-500/10', via: 'via-blue-500' },
+                physics: { text: 'text-indigo-400', border: 'border-indigo-500/20', bg: 'bg-indigo-500/10', via: 'via-indigo-500' },
+                chemistry: { text: 'text-emerald-400', border: 'border-emerald-500/20', bg: 'bg-emerald-500/10', via: 'via-emerald-500' },
+                biology: { text: 'text-rose-400', border: 'border-rose-500/20', bg: 'bg-rose-500/10', via: 'via-rose-500' },
+                english: { text: 'text-amber-400', border: 'border-amber-500/20', bg: 'bg-amber-500/10', via: 'via-amber-500' },
+                computer: { text: 'text-violet-400', border: 'border-violet-500/20', bg: 'bg-violet-500/10', via: 'via-violet-500' },
+                default: { text: 'text-slate-400', border: 'border-slate-500/20', bg: 'bg-slate-500/10', via: 'via-slate-500' }
               };
 
               const theme = categoryTheme[subject.category?.toLowerCase()] || categoryTheme.default;
@@ -259,7 +217,7 @@ export default function SubjectsPage() {
               return (
                 <ScrollReveal key={subject.id} delay={index * 0.05}>
                   <div className={`group flex flex-col h-full bg-[#0a0f1e] border border-white/5 rounded-2xl overflow-hidden hover:border-indigo-500/30 hover:bg-[#111827] transition-all duration-300`}>
-                    <div className={`h-1 w-full bg-gradient-to-r from-transparent via-${theme.text.split('-')[1]}-500 to-transparent opacity-50`} />
+                    <div className={`h-1 w-full bg-gradient-to-r from-transparent ${theme.via} to-transparent opacity-50`} />
 
                     <div className="p-6 flex flex-col flex-1">
                       <div className="flex justify-between items-start mb-4">

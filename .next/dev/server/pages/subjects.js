@@ -1,5 +1,6 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/subjects.js")
-R.c("server/chunks/ssr/node_modules_a7aca06e._.js")
+R.c("server/chunks/ssr/components_PdfViewer_8c23b60b.js")
+R.c("server/chunks/ssr/node_modules_6391355a._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__3c4510c8._.js")
 R.c("server/chunks/ssr/node_modules_186c80ea._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__3c8416e4._.js")

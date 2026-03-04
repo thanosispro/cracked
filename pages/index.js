@@ -14,6 +14,7 @@ export default function Home() {
       color: 'text-cyan-400',
       bg: 'bg-cyan-500/10',
       border: 'border-cyan-500/20',
+      glow: 'from-cyan-900/40',
       description: 'Master the science of molecules and reactions with immersive labs.'
     },
     {
@@ -24,6 +25,7 @@ export default function Home() {
       color: 'text-violet-400',
       bg: 'bg-violet-500/10',
       border: 'border-violet-500/20',
+      glow: 'from-violet-900/40',
       description: 'Understand the laws of motion and energy through real-world examples.'
     },
     {
@@ -34,6 +36,7 @@ export default function Home() {
       color: 'text-emerald-400',
       bg: 'bg-emerald-500/10',
       border: 'border-emerald-500/20',
+      glow: 'from-emerald-900/40',
       description: 'Explore the science of life with detailed anatomical visualizations.'
     },
     {
@@ -44,6 +47,7 @@ export default function Home() {
       color: 'text-amber-400',
       bg: 'bg-amber-500/10',
       border: 'border-amber-500/20',
+      glow: 'from-amber-900/40',
       description: 'Solve complex problems with precision and interactive graphs.'
     }
   ];
@@ -67,8 +71,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 border-b border-white/5 overflow-hidden">
-        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-indigo-600/20 blur-[120px] rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-violet-600/10 blur-[100px] rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
+        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-900/40 via-transparent to-transparent rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-violet-900/30 via-transparent to-transparent rounded-full -translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-4xl mx-auto">
@@ -145,7 +149,7 @@ export default function Home() {
               return (
                 <Link key={subject.id} href={`/subjects#${subject.title.toLowerCase()}`} className="group block h-full">
                   <div className={`h-full p-8 bg-[#0a0f1e] rounded-2xl border border-white/5 hover:border-indigo-500/30 hover:bg-[#111827] transition-all duration-300 relative overflow-hidden`}>
-                    <div className={`absolute top-0 right-0 p-32 rounded-full blur-3xl opacity-0 group-hover:opacity-10 transition-opacity ${subject.bg.replace('/10', '/30')}`}></div>
+                    <div className={`absolute top-0 right-0 w-64 h-64 rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] ${subject.glow} via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none -translate-y-1/2 translate-x-1/2`}></div>
 
                     <div className={`w-14 h-14 rounded-xl ${subject.bg} ${subject.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 border border-white/5`}>
                       <IconComponent size={28} />
@@ -199,7 +203,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="relative bg-gradient-to-r from-indigo-900/50 to-violet-900/50 rounded-3xl p-12 md:p-20 text-center border border-white/10 overflow-hidden">
 
-            <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/20 blur-[100px] rounded-full translate-x-1/2 -translate-y-1/2"></div>
+            <div className="absolute top-0 right-0 w-96 h-96 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-500/30 via-transparent to-transparent rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Ready to dominate your finals?</h2>

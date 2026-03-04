@@ -541,16 +541,41 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader.js [client] (ecmascript) <export default as Loader>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-alert.js [client] (ecmascript) <export default as AlertCircle>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$maximize$2d$2$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Maximize2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/maximize-2.js [client] (ecmascript) <export default as Maximize2>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minimize$2d$2$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Minimize2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/minimize-2.js [client] (ecmascript) <export default as Minimize2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ScrollReveal$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ScrollReveal.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dynamic$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dynamic.js [client] (ecmascript)");
+;
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
 ;
 ;
 ;
-const API_BASE_URL = ("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com/") || 'http://127.0.0.1:8000';
+;
+const PdfViewer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dynamic$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_context__.A("[project]/components/PdfViewer.js [client] (ecmascript, next/dynamic entry, async loader)"), {
+    loadableGenerated: {
+        modules: [
+            "[project]/components/PdfViewer.js [client] (ecmascript, next/dynamic entry)"
+        ]
+    },
+    ssr: false,
+    loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-center h-full bg-[#0a0f1e]",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader$3e$__["Loader"], {
+                size: 48,
+                className: "text-indigo-500 animate-spin"
+            }, void 0, false, {
+                fileName: "[project]/pages/subjects.js",
+                lineNumber: 10,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/pages/subjects.js",
+            lineNumber: 9,
+            columnNumber: 18
+        }, ("TURBOPACK compile-time value", void 0))
+});
+_c = PdfViewer;
+const API_BASE_URL = ("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com") || 'http://127.0.0.1:8000';
 function SubjectsPage() {
     _s();
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
@@ -668,168 +693,24 @@ function SubjectsPage() {
         className: "min-h-screen bg-[#020617] pt-32 pb-20 px-4",
         children: [
             selectedPdf && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: `fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col animate-in fade-in duration-200 ${isFullScreen ? 'p-0' : 'p-4'}`,
-                children: [
-                    !isFullScreen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex justify-between items-center p-4 bg-[#0a0f1e] border-b border-white/10 shadow-lg rounded-t-xl mx-auto w-full max-w-6xl",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-lg font-bold text-slate-200",
-                                        children: selectedPdf.name
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 103,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-slate-500 text-sm truncate max-w-md",
-                                        children: selectedPdf.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 104,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/subjects.js",
-                                lineNumber: 102,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        onClick: ()=>setIsFullScreen(true),
-                                        className: "p-2 hover:bg-white/5 rounded-lg transition-colors group",
-                                        title: "Full Screen",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$maximize$2d$2$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Maximize2$3e$__["Maximize2"], {
-                                            size: 20,
-                                            className: "text-indigo-400 group-hover:scale-110 transition-transform"
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 108,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 107,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        onClick: ()=>handleDownloadPdf(selectedPdf.pdfLink, selectedPdf.name),
-                                        className: "p-2 hover:bg-white/5 rounded-lg transition-colors group",
-                                        title: "Download PDF",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
-                                            size: 20,
-                                            className: "text-indigo-400 group-hover:scale-110 transition-transform"
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 111,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 110,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        onClick: ()=>{
-                                            setSelectedPdf(null);
-                                            setIsFullScreen(false);
-                                        },
-                                        className: "p-2 hover:bg-white/5 rounded-lg transition-colors group",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
-                                            size: 20,
-                                            className: "text-rose-400 group-hover:scale-110 transition-transform"
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 117,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 113,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/subjects.js",
-                                lineNumber: 106,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/pages/subjects.js",
-                        lineNumber: 101,
-                        columnNumber: 29
-                    }, this),
-                    isFullScreen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute top-4 left-1/2 transform -translate-x-1/2 z-50 flex gap-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>setIsFullScreen(false),
-                                className: "p-2 bg-black/50 hover:bg-black/80 rounded-lg transition-colors group backdrop-blur-sm border border-white/10",
-                                title: "Exit Full Screen",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minimize$2d$2$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Minimize2$3e$__["Minimize2"], {
-                                    size: 20,
-                                    className: "text-white group-hover:scale-110 transition-transform"
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 124,
-                                    columnNumber: 17
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/pages/subjects.js",
-                                lineNumber: 123,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>{
-                                    setSelectedPdf(null);
-                                    setIsFullScreen(false);
-                                },
-                                className: "p-2 bg-black/50 hover:bg-black/80 rounded-lg transition-colors group backdrop-blur-sm border border-white/10",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
-                                    size: 20,
-                                    className: "text-rose-400 group-hover:scale-110 transition-transform"
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 130,
-                                    columnNumber: 17
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/pages/subjects.js",
-                                lineNumber: 126,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/pages/subjects.js",
-                        lineNumber: 122,
-                        columnNumber: 28
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `flex-1 overflow-hidden bg-slate-900 ${isFullScreen ? 'w-full h-full' : 'mx-auto w-full max-w-6xl rounded-b-xl shadow-2xl border-x border-b border-white/10'}`,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                            src: `${API_BASE_URL}${selectedPdf.pdfLink}#toolbar=1&navpanes=0&scrollbar=1`,
-                            className: "w-full h-full bg-white/10",
-                            title: selectedPdf.name
-                        }, void 0, false, {
-                            fileName: "[project]/pages/subjects.js",
-                            lineNumber: 135,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/pages/subjects.js",
-                        lineNumber: 134,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
+                className: "fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PdfViewer, {
+                    fileUrl: `${API_BASE_URL}${selectedPdf.pdfLink}`,
+                    fileName: selectedPdf.name,
+                    onDownload: ()=>handleDownloadPdf(selectedPdf.pdfLink, selectedPdf.name),
+                    onClose: ()=>{
+                        setSelectedPdf(null);
+                        setIsFullScreen(false);
+                    },
+                    isFullScreen: isFullScreen
+                }, void 0, false, {
+                    fileName: "[project]/pages/subjects.js",
+                    lineNumber: 108,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/pages/subjects.js",
-                lineNumber: 100,
+                lineNumber: 107,
                 columnNumber: 23
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -849,13 +730,13 @@ function SubjectsPage() {
                                                 children: "Materials"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/subjects.js",
-                                                lineNumber: 143,
+                                                lineNumber: 118,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 142,
+                                        lineNumber: 117,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -863,13 +744,13 @@ function SubjectsPage() {
                                         children: "Access comprehensive high-yield study notes shared by top rankers."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 145,
+                                        lineNumber: 120,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/subjects.js",
-                                lineNumber: 141,
+                                lineNumber: 116,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -882,7 +763,7 @@ function SubjectsPage() {
                                             size: 20
                                         }, void 0, false, {
                                             fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 153,
+                                            lineNumber: 128,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -893,7 +774,7 @@ function SubjectsPage() {
                                             className: "w-full pl-12 pr-6 py-4 bg-[#0a0f1e] border border-white/10 rounded-2xl focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/50 focus:outline-none transition-all duration-300 text-slate-200 placeholder-slate-600 text-lg shadow-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 154,
+                                            lineNumber: 129,
                                             columnNumber: 15
                                         }, this),
                                         searchQuery && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -903,23 +784,23 @@ function SubjectsPage() {
                                                 size: 20
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/subjects.js",
-                                                lineNumber: 156,
+                                                lineNumber: 131,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 155,
+                                            lineNumber: 130,
                                             columnNumber: 31
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 152,
+                                    lineNumber: 127,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/subjects.js",
-                                lineNumber: 151,
+                                lineNumber: 126,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -930,18 +811,18 @@ function SubjectsPage() {
                                         children: cat.label
                                     }, cat.value, false, {
                                         fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 162,
+                                        lineNumber: 137,
                                         columnNumber: 36
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/pages/subjects.js",
-                                lineNumber: 161,
+                                lineNumber: 136,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/subjects.js",
-                        lineNumber: 140,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ScrollReveal$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -953,7 +834,7 @@ function SubjectsPage() {
                                     className: "text-rose-500 flex-shrink-0 mt-0.5"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 170,
+                                    lineNumber: 145,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -963,7 +844,7 @@ function SubjectsPage() {
                                             children: "Error"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 172,
+                                            lineNumber: 147,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -971,24 +852,24 @@ function SubjectsPage() {
                                             children: error
                                         }, void 0, false, {
                                             fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 173,
+                                            lineNumber: 148,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 171,
+                                    lineNumber: 146,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/subjects.js",
-                            lineNumber: 169,
+                            lineNumber: 144,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/subjects.js",
-                        lineNumber: 168,
+                        lineNumber: 143,
                         columnNumber: 19
                     }, this),
                     loading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1001,7 +882,7 @@ function SubjectsPage() {
                                     className: "mx-auto text-indigo-500 animate-spin mb-4"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 180,
+                                    lineNumber: 155,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1009,18 +890,18 @@ function SubjectsPage() {
                                     children: "Loading study materials..."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 181,
+                                    lineNumber: 156,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/subjects.js",
-                            lineNumber: 179,
+                            lineNumber: 154,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/subjects.js",
-                        lineNumber: 178,
+                        lineNumber: 153,
                         columnNumber: 21
                     }, this),
                     !loading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ScrollReveal$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1035,7 +916,7 @@ function SubjectsPage() {
                                         children: filteredSubjects.length
                                     }, void 0, false, {
                                         fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 188,
+                                        lineNumber: 163,
                                         columnNumber: 23
                                     }, this),
                                     " ",
@@ -1043,17 +924,17 @@ function SubjectsPage() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/subjects.js",
-                                lineNumber: 187,
+                                lineNumber: 162,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/subjects.js",
-                            lineNumber: 186,
+                            lineNumber: 161,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/subjects.js",
-                        lineNumber: 185,
+                        lineNumber: 160,
                         columnNumber: 22
                     }, this),
                     !loading && filteredSubjects.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1063,37 +944,44 @@ function SubjectsPage() {
                                 mathematics: {
                                     text: 'text-blue-400',
                                     border: 'border-blue-500/20',
-                                    bg: 'bg-blue-500/10'
+                                    bg: 'bg-blue-500/10',
+                                    via: 'via-blue-500'
                                 },
                                 physics: {
                                     text: 'text-indigo-400',
                                     border: 'border-indigo-500/20',
-                                    bg: 'bg-indigo-500/10'
+                                    bg: 'bg-indigo-500/10',
+                                    via: 'via-indigo-500'
                                 },
                                 chemistry: {
                                     text: 'text-emerald-400',
                                     border: 'border-emerald-500/20',
-                                    bg: 'bg-emerald-500/10'
+                                    bg: 'bg-emerald-500/10',
+                                    via: 'via-emerald-500'
                                 },
                                 biology: {
                                     text: 'text-rose-400',
                                     border: 'border-rose-500/20',
-                                    bg: 'bg-rose-500/10'
+                                    bg: 'bg-rose-500/10',
+                                    via: 'via-rose-500'
                                 },
                                 english: {
                                     text: 'text-amber-400',
                                     border: 'border-amber-500/20',
-                                    bg: 'bg-amber-500/10'
+                                    bg: 'bg-amber-500/10',
+                                    via: 'via-amber-500'
                                 },
                                 computer: {
                                     text: 'text-violet-400',
                                     border: 'border-violet-500/20',
-                                    bg: 'bg-violet-500/10'
+                                    bg: 'bg-violet-500/10',
+                                    via: 'via-violet-500'
                                 },
                                 default: {
                                     text: 'text-slate-400',
                                     border: 'border-slate-500/20',
-                                    bg: 'bg-slate-500/10'
+                                    bg: 'bg-slate-500/10',
+                                    via: 'via-slate-500'
                                 }
                             };
                             const theme = categoryTheme[subject.category?.toLowerCase()] || categoryTheme.default;
@@ -1103,10 +991,10 @@ function SubjectsPage() {
                                     className: `group flex flex-col h-full bg-[#0a0f1e] border border-white/5 rounded-2xl overflow-hidden hover:border-indigo-500/30 hover:bg-[#111827] transition-all duration-300`,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `h-1 w-full bg-gradient-to-r from-transparent via-${theme.text.split('-')[1]}-500 to-transparent opacity-50`
+                                            className: `h-1 w-full bg-gradient-to-r from-transparent ${theme.via} to-transparent opacity-50`
                                         }, void 0, false, {
                                             fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 235,
+                                            lineNumber: 217,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1120,7 +1008,7 @@ function SubjectsPage() {
                                                             children: subject.category
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/subjects.js",
-                                                            lineNumber: 239,
+                                                            lineNumber: 221,
                                                             columnNumber: 25
                                                         }, this),
                                                         subject.isAuthenticated && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1130,18 +1018,18 @@ function SubjectsPage() {
                                                                 children: "Verified"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/pages/subjects.js",
-                                                                lineNumber: 243,
+                                                                lineNumber: 225,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/subjects.js",
-                                                            lineNumber: 242,
+                                                            lineNumber: 224,
                                                             columnNumber: 53
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/subjects.js",
-                                                    lineNumber: 238,
+                                                    lineNumber: 220,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1149,7 +1037,7 @@ function SubjectsPage() {
                                                     children: subject.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/subjects.js",
-                                                    lineNumber: 247,
+                                                    lineNumber: 229,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1157,7 +1045,7 @@ function SubjectsPage() {
                                                     children: subject.description || "No description available for this study material."
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/subjects.js",
-                                                    lineNumber: 251,
+                                                    lineNumber: 233,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1171,7 +1059,7 @@ function SubjectsPage() {
                                                                     className: "mr-1.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/subjects.js",
-                                                                    lineNumber: 257,
+                                                                    lineNumber: 239,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1181,13 +1069,13 @@ function SubjectsPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/pages/subjects.js",
-                                                                    lineNumber: 258,
+                                                                    lineNumber: 240,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/subjects.js",
-                                                            lineNumber: 256,
+                                                            lineNumber: 238,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1204,14 +1092,14 @@ function SubjectsPage() {
                                                                             size: 16
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/pages/subjects.js",
-                                                                            lineNumber: 266,
+                                                                            lineNumber: 248,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         "View"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/pages/subjects.js",
-                                                                    lineNumber: 262,
+                                                                    lineNumber: 244,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1222,47 +1110,47 @@ function SubjectsPage() {
                                                                         size: 16
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/pages/subjects.js",
-                                                                        lineNumber: 270,
+                                                                        lineNumber: 252,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/subjects.js",
-                                                                    lineNumber: 269,
+                                                                    lineNumber: 251,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/subjects.js",
-                                                            lineNumber: 261,
+                                                            lineNumber: 243,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/subjects.js",
-                                                    lineNumber: 255,
+                                                    lineNumber: 237,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/subjects.js",
-                                            lineNumber: 237,
+                                            lineNumber: 219,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 234,
+                                    lineNumber: 216,
                                     columnNumber: 19
                                 }, this)
                             }, subject.id, false, {
                                 fileName: "[project]/pages/subjects.js",
-                                lineNumber: 233,
+                                lineNumber: 215,
                                 columnNumber: 18
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/pages/subjects.js",
-                        lineNumber: 193,
+                        lineNumber: 168,
                         columnNumber: 52
                     }, this) : !loading && filteredSubjects.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ScrollReveal$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1275,12 +1163,12 @@ function SubjectsPage() {
                                         className: "text-slate-600"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/subjects.js",
-                                        lineNumber: 281,
+                                        lineNumber: 263,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 280,
+                                    lineNumber: 262,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1288,7 +1176,7 @@ function SubjectsPage() {
                                     children: "No materials found"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 283,
+                                    lineNumber: 265,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1296,7 +1184,7 @@ function SubjectsPage() {
                                     children: "We couldn t find any documents matching your current filters."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 284,
+                                    lineNumber: 266,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1308,37 +1196,38 @@ function SubjectsPage() {
                                     children: "Clear all filters"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/subjects.js",
-                                    lineNumber: 287,
+                                    lineNumber: 269,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/subjects.js",
-                            lineNumber: 279,
+                            lineNumber: 261,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/subjects.js",
-                        lineNumber: 278,
+                        lineNumber: 260,
                         columnNumber: 64
                     }, this) : null
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/subjects.js",
-                lineNumber: 139,
+                lineNumber: 114,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/subjects.js",
-        lineNumber: 98,
+        lineNumber: 105,
         columnNumber: 10
     }, this);
 }
 _s(SubjectsPage, "NFbfcfvIFIk/i3ID+2Dkny7sMwY=");
-_c = SubjectsPage;
-var _c;
-__turbopack_context__.k.register(_c, "SubjectsPage");
+_c1 = SubjectsPage;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "PdfViewer");
+__turbopack_context__.k.register(_c1, "SubjectsPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

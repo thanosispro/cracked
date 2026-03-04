@@ -898,6 +898,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dynamic$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dynamic.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/check.js [client] (ecmascript) <export default as Check>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [client] (ecmascript) <export default as X>");
@@ -914,6 +915,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$js$2d$cookie
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$admin$2f$AdminNavigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/admin/AdminNavigation.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$admin$2f$DeleteModal$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/admin/DeleteModal.js [client] (ecmascript)");
 ;
+;
 var _s = __turbopack_context__.k.signature();
 // app/admin/unverified/page.tsx
 'use client';
@@ -922,7 +924,32 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-const API_URL = ("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com/");
+;
+const PdfViewer = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dynamic$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_context__.A("[project]/components/PdfViewer.js [client] (ecmascript, next/dynamic entry, async loader)"), {
+    loadableGenerated: {
+        modules: [
+            "[project]/components/PdfViewer.js [client] (ecmascript, next/dynamic entry)"
+        ]
+    },
+    ssr: false,
+    loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-center h-full bg-[#0a0f1e]",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
+                size: 48,
+                className: "text-indigo-500 animate-spin"
+            }, void 0, false, {
+                fileName: "[project]/components/admin/dashboard.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/components/admin/dashboard.js",
+            lineNumber: 12,
+            columnNumber: 18
+        }, ("TURBOPACK compile-time value", void 0))
+});
+_c = PdfViewer;
+const API_URL = ("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com");
 function UnverifiedPage() {
     _s();
     const [data, setData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])([]);
@@ -995,7 +1022,7 @@ function UnverifiedPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$admin$2f$AdminNavigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/admin/dashboard.js",
-                lineNumber: 74,
+                lineNumber: 81,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1009,7 +1036,7 @@ function UnverifiedPage() {
                                 children: viewMode === 'unverified' ? 'Pending Approval' : 'Verified Documents'
                             }, void 0, false, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 79,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1021,20 +1048,20 @@ function UnverifiedPage() {
                                         className: loading ? "animate-spin" : ""
                                     }, void 0, false, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 83,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, this),
                                     " Refresh"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 82,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/admin/dashboard.js",
-                        lineNumber: 78,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1052,7 +1079,7 @@ function UnverifiedPage() {
                                         children: "Unverified"
                                     }, void 0, false, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 92,
+                                        lineNumber: 99,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1061,13 +1088,13 @@ function UnverifiedPage() {
                                         children: "Verified"
                                     }, void 0, false, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 98,
+                                        lineNumber: 105,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 91,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             viewMode === 'verified' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1080,12 +1107,12 @@ function UnverifiedPage() {
                                             className: "text-gray-500"
                                         }, void 0, false, {
                                             fileName: "[project]/components/admin/dashboard.js",
-                                            lineNumber: 106,
+                                            lineNumber: 113,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 105,
+                                        lineNumber: 112,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1096,7 +1123,7 @@ function UnverifiedPage() {
                                         className: "block w-full pl-10 pr-10 py-2 border border-white/10 rounded-lg leading-5 bg-black/20 text-gray-300 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 focus:border-emerald-500 sm:text-sm transition-all"
                                     }, void 0, false, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 108,
+                                        lineNumber: 115,
                                         columnNumber: 15
                                     }, this),
                                     searchQuery && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1106,30 +1133,30 @@ function UnverifiedPage() {
                                             size: 16
                                         }, void 0, false, {
                                             fileName: "[project]/components/admin/dashboard.js",
-                                            lineNumber: 110,
+                                            lineNumber: 117,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 109,
+                                        lineNumber: 116,
                                         columnNumber: 31
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 104,
+                                lineNumber: 111,
                                 columnNumber: 39
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/admin/dashboard.js",
-                        lineNumber: 88,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/admin/dashboard.js",
-                lineNumber: 77,
+                lineNumber: 84,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1148,7 +1175,7 @@ function UnverifiedPage() {
                                             children: "Subject & Category"
                                         }, void 0, false, {
                                             fileName: "[project]/components/admin/dashboard.js",
-                                            lineNumber: 122,
+                                            lineNumber: 129,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -1156,7 +1183,7 @@ function UnverifiedPage() {
                                             children: "Description"
                                         }, void 0, false, {
                                             fileName: "[project]/components/admin/dashboard.js",
-                                            lineNumber: 123,
+                                            lineNumber: 130,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -1164,7 +1191,7 @@ function UnverifiedPage() {
                                             children: "Date Added"
                                         }, void 0, false, {
                                             fileName: "[project]/components/admin/dashboard.js",
-                                            lineNumber: 124,
+                                            lineNumber: 131,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -1172,18 +1199,18 @@ function UnverifiedPage() {
                                             children: "Actions"
                                         }, void 0, false, {
                                             fileName: "[project]/components/admin/dashboard.js",
-                                            lineNumber: 125,
+                                            lineNumber: 132,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/admin/dashboard.js",
-                                    lineNumber: 121,
+                                    lineNumber: 128,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 120,
+                                lineNumber: 127,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -1199,7 +1226,7 @@ function UnverifiedPage() {
                                                         children: item.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/admin/dashboard.js",
-                                                        lineNumber: 131,
+                                                        lineNumber: 138,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1207,13 +1234,13 @@ function UnverifiedPage() {
                                                         children: item.category
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/admin/dashboard.js",
-                                                        lineNumber: 132,
+                                                        lineNumber: 139,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 130,
+                                                lineNumber: 137,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -1221,7 +1248,7 @@ function UnverifiedPage() {
                                                 children: item.description
                                             }, void 0, false, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 136,
+                                                lineNumber: 143,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -1229,7 +1256,7 @@ function UnverifiedPage() {
                                                 children: new Date(item.date).toLocaleDateString()
                                             }, void 0, false, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 139,
+                                                lineNumber: 146,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -1248,12 +1275,12 @@ function UnverifiedPage() {
                                                                 size: 18
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                                lineNumber: 149,
+                                                                lineNumber: 156,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/admin/dashboard.js",
-                                                            lineNumber: 145,
+                                                            lineNumber: 152,
                                                             columnNumber: 25
                                                         }, this),
                                                         viewMode === 'unverified' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1270,18 +1297,18 @@ function UnverifiedPage() {
                                                                         className: "animate-spin"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/admin/dashboard.js",
-                                                                        lineNumber: 157,
+                                                                        lineNumber: 164,
                                                                         columnNumber: 60
                                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
                                                                         size: 18
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/admin/dashboard.js",
-                                                                        lineNumber: 157,
+                                                                        lineNumber: 164,
                                                                         columnNumber: 109
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                                    lineNumber: 154,
+                                                                    lineNumber: 161,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1296,18 +1323,18 @@ function UnverifiedPage() {
                                                                         className: "animate-spin"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/admin/dashboard.js",
-                                                                        lineNumber: 163,
+                                                                        lineNumber: 170,
                                                                         columnNumber: 60
                                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                                                         size: 18
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/admin/dashboard.js",
-                                                                        lineNumber: 163,
+                                                                        lineNumber: 170,
                                                                         columnNumber: 109
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                                    lineNumber: 160,
+                                                                    lineNumber: 167,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             ]
@@ -1326,36 +1353,36 @@ function UnverifiedPage() {
                                                                     className: "animate-spin"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                                    lineNumber: 172,
+                                                                    lineNumber: 179,
                                                                     columnNumber: 60
                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                                    lineNumber: 172,
+                                                                    lineNumber: 179,
                                                                     columnNumber: 109
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                                lineNumber: 167,
+                                                                lineNumber: 174,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, void 0, false)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                    lineNumber: 143,
+                                                    lineNumber: 150,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 142,
+                                                lineNumber: 149,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, item.id, true, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 129,
+                                        lineNumber: 136,
                                         columnNumber: 51
                                     }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -1364,33 +1391,33 @@ function UnverifiedPage() {
                                         children: loading ? 'Loading...' : 'No documents found.'
                                     }, void 0, false, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 178,
+                                        lineNumber: 185,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/admin/dashboard.js",
-                                    lineNumber: 177,
+                                    lineNumber: 184,
                                     columnNumber: 28
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 128,
+                                lineNumber: 135,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/admin/dashboard.js",
-                        lineNumber: 119,
+                        lineNumber: 126,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/admin/dashboard.js",
-                    lineNumber: 118,
+                    lineNumber: 125,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/admin/dashboard.js",
-                lineNumber: 117,
+                lineNumber: 124,
                 columnNumber: 7
             }, this),
             selectedPdf && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1404,7 +1431,7 @@ function UnverifiedPage() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/admin/dashboard.js",
-                        lineNumber: 190,
+                        lineNumber: 197,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1421,20 +1448,20 @@ function UnverifiedPage() {
                                                 className: "text-blue-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 199,
+                                                lineNumber: 206,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "Document Preview"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 200,
+                                                lineNumber: 207,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 198,
+                                        lineNumber: 205,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1448,18 +1475,18 @@ function UnverifiedPage() {
                                                     size: 20
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                    lineNumber: 204,
+                                                    lineNumber: 211,
                                                     columnNumber: 35
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$maximize$2d$2$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Maximize2$3e$__["Maximize2"], {
                                                     size: 20
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                    lineNumber: 204,
+                                                    lineNumber: 211,
                                                     columnNumber: 61
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 203,
+                                                lineNumber: 210,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1472,13 +1499,13 @@ function UnverifiedPage() {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/admin/dashboard.js",
-                                                        lineNumber: 207,
+                                                        lineNumber: 214,
                                                         columnNumber: 35
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 206,
+                                                lineNumber: 213,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1491,51 +1518,50 @@ function UnverifiedPage() {
                                                     size: 20
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/admin/dashboard.js",
-                                                    lineNumber: 213,
+                                                    lineNumber: 220,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/admin/dashboard.js",
-                                                lineNumber: 209,
+                                                lineNumber: 216,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/admin/dashboard.js",
-                                        lineNumber: 202,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 197,
+                                lineNumber: 204,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex-1 bg-white",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                                    src: `${API_URL}${selectedPdf}#toolbar=0`,
-                                    className: "w-full h-full border-none"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PdfViewer, {
+                                    fileUrl: `${API_URL}${selectedPdf}`
                                 }, void 0, false, {
                                     fileName: "[project]/components/admin/dashboard.js",
-                                    lineNumber: 219,
+                                    lineNumber: 225,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/admin/dashboard.js",
-                                lineNumber: 217,
+                                lineNumber: 224,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/admin/dashboard.js",
-                        lineNumber: 196,
+                        lineNumber: 203,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/admin/dashboard.js",
-                lineNumber: 188,
+                lineNumber: 195,
                 columnNumber: 23
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$admin$2f$DeleteModal$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1550,20 +1576,21 @@ function UnverifiedPage() {
                 isDeleting: actionLoading === deleteModal.id
             }, void 0, false, {
                 fileName: "[project]/components/admin/dashboard.js",
-                lineNumber: 224,
+                lineNumber: 230,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/admin/dashboard.js",
-        lineNumber: 73,
+        lineNumber: 80,
         columnNumber: 10
     }, this);
 }
 _s(UnverifiedPage, "G03I3E/iVxcgbAhRxLCrhdT4L6k=");
-_c = UnverifiedPage;
-var _c;
-__turbopack_context__.k.register(_c, "UnverifiedPage");
+_c1 = UnverifiedPage;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "PdfViewer");
+__turbopack_context__.k.register(_c1, "UnverifiedPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -1602,7 +1629,7 @@ function LoginForm() {
     const [password, setPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    console.log(("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com/"), "this was it man");
+    console.log(("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com"), "this was it man");
     let t0;
     if ($[1] !== password) {
         t0 = ({
@@ -1610,7 +1637,7 @@ function LoginForm() {
                 e.preventDefault();
                 setLoading(true);
                 setError("");
-                const res = await fetch(`${("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com/")}/api/adminAuth/`, {
+                const res = await fetch(`${("TURBOPACK compile-time value", "https://cracked12us.pythonanywhere.com")}/api/adminAuth/`, {
                     method: "POST",
                     body: JSON.stringify({
                         password

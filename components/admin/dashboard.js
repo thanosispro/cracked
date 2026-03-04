@@ -1,10 +1,19 @@
 // app/admin/unverified/page.tsx
 'use client';
+import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 import { Check, X, Eye, FileText, ExternalLink, RefreshCw, Trash2, Search, Maximize2, Minimize2, Loader2 } from 'lucide-react';
 import Cookies from 'js-cookie';
 import AdminNavigation from './AdminNavigation';
 import DeleteModal from './DeleteModal';
+const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
+  ssr: false,
+  loading: () => (
+    <div className="flex items-center justify-center h-full bg-[#0a0f1e]">
+      <Loader2 size={48} className="text-indigo-500 animate-spin" />
+    </div>
+  ),
+});
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
@@ -272,11 +281,7 @@ export default function UnverifiedPage() {
               </div>
             </div>
             <div className="flex-1 bg-white">
-              {/* Note: In production, ensure the PDF link is absolute or prepended with API_URL */}
-              <iframe
-                src={`${API_URL}${selectedPdf}#toolbar=0`}
-                className="w-full h-full border-none"
-              />
+              <PdfViewer fileUrl={`${API_URL}${selectedPdf}`} />
             </div>
           </div>
         </div>

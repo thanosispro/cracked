@@ -486,19 +486,20 @@ const navMenu = [
     'Home',
     'Subjects',
     'Quiz',
+    'Simulation',
     'Upload',
     'Contact',
-    'Simulation',
+    'About',
     'Admin'
 ];
 const Navbar = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(17);
-    if ($[0] !== "44964a5ca830c1ad0bcc874940ac6258a833fcfa8f5ee3913ea56f022957ac48") {
+    if ($[0] !== "999fe15747dee83c335d90a1e421f32bebbfcfe158e88102c04343f58a32a2f8") {
         for(let $i = 0; $i < 17; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "44964a5ca830c1ad0bcc874940ac6258a833fcfa8f5ee3913ea56f022957ac48";
+        $[0] = "999fe15747dee83c335d90a1e421f32bebbfcfe158e88102c04343f58a32a2f8";
     }
     const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1686,11 +1687,11 @@ var _s = __turbopack_context__.k.signature();
 function App(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(17);
-    if ($[0] !== "0fbd98962449791aed340cace94a156f7f5a52ac710324a0b667f90bb54657eb") {
+    if ($[0] !== "abbc4af3cc36faaad9e258eca6658bcd1a2f5e4bc83aa0dcae3927b0a8aed536") {
         for(let $i = 0; $i < 17; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0fbd98962449791aed340cace94a156f7f5a52ac710324a0b667f90bb54657eb";
+        $[0] = "abbc4af3cc36faaad9e258eca6658bcd1a2f5e4bc83aa0dcae3927b0a8aed536";
     }
     const { Component, pageProps } = t0;
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
@@ -1747,7 +1748,7 @@ function App(t0) {
     let t4;
     if ($[6] !== progress) {
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$top$2d$loading$2d$bar$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-            color: "#144757ff",
+            color: "#818cf8",
             progress: progress,
             onLoaderFinished: t3
         }, void 0, false, {
