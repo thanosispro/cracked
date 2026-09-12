@@ -3,11 +3,11 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Search, FileText, Calendar, User, Download, X, Loader, AlertCircle, Maximize2, Minimize2 } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
 import dynamic from 'next/dynamic';
-const getFullPdfUrl = (path) => {
-  if (!path) return '';
-  const cleanBase = API_BASE_URL.replace(/\/+$/, '');
-  const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  return `${cleanBase}${cleanPath}`.replace(/([^:]\/)\/+/g, '$1');
+const getFullPdfUrl = (pdfLink) => {
+  if (!pdfLink) return '';
+  const base = API_BASE_URL.replace(/\/+$/, ''); // Remove trailing slash from base URL
+  const link = pdfLink.replace(/^\/+|\/+$/g, ''); // Remove both leading and trailing slashes from path
+  return `${base}/${link}`;
 };
 const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
   ssr: false,
