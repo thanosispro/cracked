@@ -3,7 +3,12 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Search, FileText, Calendar, User, Download, X, Loader, AlertCircle, Maximize2, Minimize2 } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
 import dynamic from 'next/dynamic';
-
+const getFullPdfUrl = (path) => {
+  if (!path) return '';
+  const cleanBase = API_BASE_URL.replace(/\/+$/, '');
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  return `${cleanBase}${cleanPath}`.replace(/([^:]\/)\/+/g, '$1');
+};
 const PdfViewer = dynamic(() => import('@/components/PdfViewer'), {
   ssr: false,
   loading: () => (
@@ -84,14 +89,14 @@ export default function SubjectsPage() {
   }, [searchQuery, selectedCategory, fetchSubjects]);
 
   const handleDownloadPdf = (pdfLink, name) => {
-    const fullUrl = `${API_BASE_URL}${pdfLink}`;
-    const link = document.createElement('a');
-    link.href = fullUrl;
-    link.download = `${name}.pdf`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  const fullUrl = getFullPdfUrl(pdfLink);
+  const link = document.createElement('a');
+  link.href = fullUrl;
+  link.download = `${name}.pdf`;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
   const formatDate = (dateString) => {
     return new Date(dateString).toLocaleDateString('en-US', {
@@ -107,7 +112,8 @@ export default function SubjectsPage() {
       {selectedPdf && (
         <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col">
           <PdfViewer
-            fileUrl={`${API_BASE_URL}${selectedPdf.pdfLink}`}
+            fileUrl={getFullPdfUrl(selectedPdf.pdfLink)}
+        
             fileName={selectedPdf.name}
             onDownload={() => handleDownloadPdf(selectedPdf.pdfLink, selectedPdf.name)}
             onClose={() => {
